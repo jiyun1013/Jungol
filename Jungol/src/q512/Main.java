@@ -18,5 +18,7 @@ public class Main {
 		
 		//3
 		System.out.printf("%d * %f = %f\n",x,fy,x*fy);
+		
+//
 	}
 }
