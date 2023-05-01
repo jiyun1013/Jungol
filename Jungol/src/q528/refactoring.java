@@ -16,3 +16,4 @@ public class refactoring {
 			System.out.print("\nminus");
 		}
 	}
+}
