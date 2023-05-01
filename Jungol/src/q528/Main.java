@@ -1,6 +1,7 @@
 package q528;
 
-import java.util.Scanner;  //컨트롤+쉬프트+O
+import java.util.Scanner;  //컨트롤+쉬프트+o
+
 
 public class Main {
 
@@ -14,6 +15,7 @@ public class Main {
 			System.out.print(number);
 		}else {
 			System.out.print(number+"\nminus");
+			
 		}
 	}
 }
