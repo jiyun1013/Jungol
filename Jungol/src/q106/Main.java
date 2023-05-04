@@ -10,7 +10,5 @@ public class Main {
 		
 		System.out.println(n1 + " + " +n2+ " = " +n3);
 		System.out.printf("%d + %d = %d", n1, n2, n3);
-
 	}
-
 }
