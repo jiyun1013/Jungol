@@ -7,20 +7,18 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int[] ar = new int[10];
 		int sum = 0;
-		int av = 0;
-		double avg = 0;
+		double avg1 = 0.0;
 
 		for (int i = 0; i < ar.length; i++) {
 			ar[i] = sc.nextInt();
 			if (i % 2 != 0) {
 				sum += ar[i];
 			} else {
-				av += ar[i];
+				avg1 += ar[i];
 			}
 		}
-		avg = (double) av / 5;
 		sc.close();
 		System.out.println("sum : " + sum);
-		System.out.printf("avg : " + "%.1f", avg);
+		System.out.printf("avg : " + "%.1f", avg1 / 5);
 	}
 }
