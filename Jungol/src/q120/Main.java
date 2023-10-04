@@ -9,6 +9,10 @@ public class Main {
 		int n2 = sc.nextInt();
 		sc.close();
 
+		// 2.
+		System.out.println(Math.abs(n1 - n2));
+
+		// 1.
 		int sco = (n1 > n2) ? n1 - n2 : n2 - n1;
 		System.out.println(sco);
 	}
